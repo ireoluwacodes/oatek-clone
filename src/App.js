@@ -4,6 +4,7 @@ import { FaPhone } from "react-icons/fa6";
 import { MdMail } from "react-icons/md";
 import "./App.css";
 
+import Home from "./pages/Home";
 const App = () => {
   return (
     <>
@@ -38,6 +39,7 @@ const App = () => {
           </p>
         </nav>
       </header>
+      <Home />
     </>
   );
 };
