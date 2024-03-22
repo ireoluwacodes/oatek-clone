@@ -411,7 +411,7 @@ header {
   justify-content: space-evenly;
 }
 
-.section-six-box { 
+.section-six-box {
   width: 16rem;
   height: 8rem;
   background-color: rgb(255, 255, 255);
@@ -420,7 +420,7 @@ header {
   justify-content: center;
   align-items: center;
   margin: 2rem;
-  box-shadow: rgba(0, 0, 0, 0.075) 0px 0.125rem 0.25rem
+  box-shadow: rgba(0, 0, 0, 0.075) 0px 0.125rem 0.25rem;
 }
 .section-six-box img {
   width: 70px;
@@ -434,5 +434,51 @@ footer {
   display: flex;
   background-color: rgb(53, 53, 54);
   align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer-nav li {
+  text-decoration: none;
+  display: inline-block;
+  color: rgb(241, 245, 248);
+}
+
+.footer-nav p {
+  color: rgb(241, 245, 248);
+}
+
+.footer-section-top {
+  background-color: #0096ff;
+  width: 100%;
+  display: flex;
+  padding: 25px;
+  border-bottom: 1px solid #fff;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-section-top p {
+  color: rgb(241, 245, 248);
+}
+
+.footer-section-top-icons {
+  display: flex;
+  gap: 25px;
+}
+
+.footer-section-main {
+  display: flex;
+}
+.footer-section-sub {
+  background-color: #808080;
+  width: 100%;
+  display: flex;
+  padding: 30px;
+  align-items: center;
   justify-content: center;
+}
+
+.footer-section-sub p {
+  color: rgb(241, 245, 248);
 }
