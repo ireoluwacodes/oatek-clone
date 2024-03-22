@@ -8,7 +8,7 @@ const SectionOne = () => {
       <div className="section-one">
        <main>
        <div className="section-one-text">
-          <p className="section-one-main-text">IT Automation At It's Peak</p>
+          <p className="section-one-main-text gloock-font">IT Automation At It's Peak</p>
           <p className="section-one-sub-text">
             Software technology provider with many years of experience in a wide
             range of software application development and Telecommunication

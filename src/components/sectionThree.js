@@ -9,7 +9,7 @@ const SectionThree = () => {
         <main>
           <div className="section-three-text">
             <p className="section-three-text-header">OUR SERVICES</p>
-            <p className="section-three-text-sub">
+            <p className="section-three-text-sub gloock-font">
               We Are A Reliable Service Provider Of Top Notch Information
               Technology
             </p>

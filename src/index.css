@@ -1,9 +1,15 @@
 body {
   margin: 0;
-  font-family: 'Montserrat', Segoe UI, Tahoma, Geneva, Verdana, sans-serif !important;
+  font-family: "Montserrat", Segoe UI, Tahoma, Geneva, Verdana, sans-serif !important;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.gloock-font {
+  color: rgb(0, 150, 255);
+  font-family: "Gloock", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
